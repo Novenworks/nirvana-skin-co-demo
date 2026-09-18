@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #FAF8F5;
+    --foreground: #1C1A18;
+    --muted: #666159;
+    --border: #E8DFD5;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    color: var(--foreground);
+    background-color: var(--background);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #D7C7B7;
+    color: #1C1A18;
+  }
+}
+
+.glow-subtle {
+  box-shadow: 0 20px 40px -15px rgba(28, 26, 24, 0.05);
+}
+
+.luxury-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(232, 223, 213, 0.9);
+}
+
+.editorial-title {
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
