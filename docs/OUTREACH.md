@@ -50,3 +50,34 @@
 >
 > Warmly,  
 > **[YOUR_NAME]**
+## Outreach copy — canonical location
+
+Subject lines, initial cold email, follow-up #1, follow-up #2, phone script
+with branches, and voicemail all live on the private `/outreach` route. That
+route is the single source of truth.
+
+## The guardrail that had to be withdrawn
+
+The previous dossier instructed the operator to **"not mention automated
+code"** and to **"frame the demo as a hand-crafted bespoke digital
+showcase"**. That is an instruction to mislead the prospect about how the
+work was produced. It is withdrawn.
+
+The replacement is simple: do not volunteer process detail, and if asked,
+answer honestly. The phone script now carries a branch for exactly that
+question.
+
+## Other corrections
+
+- A subject line read **"Loved Desi's review of your studio"**, naming an
+  individual client from a public review. Intrusive; removed, with a
+  guardrail against naming reviewers.
+- The dossier told the operator to "emphasize ranking for localized search
+  terms" and claimed keeping Comb Works "increases booking conversion" —
+  both performance claims, and both contradicting its own no-SEO-guarantees
+  guardrail.
+- The emails contained the literal placeholders `[DEMO_URL]`,
+  `[YOUR_NAME]`, `[YOUR_PHONE]` and `[YOUR_TITLE]`, so the sequence was not
+  sendable.
+- The follow-up opened "Just following up on my previous note" and asked for
+  a "brief 5-minute chat".
