@@ -52,33 +52,35 @@ const GUARDRAILS = [
 ];
 
 const SUBJECT_LINES = [
-  "Some placeholder text left in your FAQ",
-  "Stephanie \u2014 a concept for Nirvana Skin Co.",
-  "A skin-concern path for your studio",
+  "Stephanie, I made something for Nirvana Skin Co",
+  "Had an idea for Nirvana Skin Co",
+  "Stephanie, I tried something with the Nirvana Skin Co site",
 ];
 
 const COLD_EMAIL = `Hi Stephanie,
 
-I was going through your booking flow and noticed the FAQ section still has some template placeholder text in it \u2014 the kind that ships with a theme and gets missed. Easy to overlook once a site is live.
+I came across Nirvana Skin Co and spent some time looking through the site.
 
-That sent me through the rest, and I rebuilt it around a skin-concern path: someone picks what they're dealing with and lands on the right facial, peel or microneedling option. Booking still goes to your Comb Works.
+What stood out to me was the range of services and the care behind the experience. I had an idea for how I would bring that forward more, so I built a version instead of sending you a list of suggestions.
 
-Here: ${DEMO_URL}
+https://nirvana-skin-co-rancho-cucamonga.vercel.app
 
-I built it on my own from what's already public. Happy to walk you through what I changed if it's useful.
+Thought you might be curious to see it.
 
-\u2014 Vince
+If you like the direction, I can show you what I changed.
+
+Vincent
 Novenworks`;
 
 const FOLLOW_UP_ONE = `Hi Stephanie,
 
-One thing I didn't mention: the concept puts your years in medical aesthetics up front rather than further down the page. For corrective work especially, that tends to be what someone is trying to work out before they book.
+Just bumping this once in case it got buried. I spent some real time on the Nirvana Skin Co concept and wanted to make sure you saw it.
 
-${DEMO_URL}
+https://nirvana-skin-co-rancho-cucamonga.vercel.app
 
-Curious whether clients ask about that.
+No worries if the timing is off.
 
-\u2014 Vince`;
+Vincent`;
 
 const FOLLOW_UP_TWO = `Hi Stephanie,
 
