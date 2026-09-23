@@ -53,15 +53,17 @@ const GUARDRAILS = [
 
 const SUBJECT_LINES = [
   "Stephanie, I made something for Nirvana Skin Co",
-  "Had an idea for Nirvana Skin Co",
-  "Stephanie, I tried something with the Nirvana Skin Co site",
+  "had an idea for Nirvana Skin Co",
+  "quick thing I built for Nirvana Skin Co",
 ];
 
 const COLD_EMAIL = `Hi Stephanie,
 
-I came across Nirvana Skin Co and spent some time looking through the site.
+I came across Nirvana Skin Co and ended up spending a little time on the site.
 
-What stood out to me was the range of services and the care behind the experience. I had an idea for how I would bring that forward more, so I built a version instead of sending you a list of suggestions.
+You already have a lot of good stuff there, real services, real people, and a clear point of view.
+
+I had an idea for how I'd present it, so I built a version instead of sending you a list of suggestions.
 
 https://nirvana-skin-co-rancho-cucamonga.vercel.app
 
@@ -74,23 +76,23 @@ Novenworks`;
 
 const FOLLOW_UP_ONE = `Hi Stephanie,
 
-Just bumping this once in case it got buried. I spent some real time on the Nirvana Skin Co concept and wanted to make sure you saw it.
+Just bumping this once in case it got buried. I made that Nirvana Skin Co homepage concept and figured you might at least be curious to see how it came out.
 
 https://nirvana-skin-co-rancho-cucamonga.vercel.app
 
-No worries if the timing is off.
+All good if now isn't the time. Just wanted to make sure you saw it.
 
 Vincent`;
 
 const FOLLOW_UP_TWO = `Hi Stephanie,
 
-I'll leave this with you. The placeholder text in the FAQ is worth a look regardless of the concept \u2014 it's a two-minute fix and genuinely easy to miss.
+Last note from me on this. I'll leave the Nirvana Skin Co concept up in case you want to look at it later.
 
-Concept's still here: ${DEMO_URL}
+https://nirvana-skin-co-rancho-cucamonga.vercel.app
 
-If it's ever useful, just reply.
+No reply needed.
 
-\u2014 Vince`;
+Vincent`;
 
 const PHONE_OPENING = `"Hi Stephanie, this is Vince with Novenworks. I was on your site and noticed the FAQ still has some template placeholder text in it \u2014 worth a quick look. That got me curious, and I ended up building a website concept for the studio. I sent it over by email and just wanted to make sure it reached you."`;
 
