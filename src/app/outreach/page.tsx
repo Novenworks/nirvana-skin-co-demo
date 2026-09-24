@@ -53,44 +53,40 @@ const GUARDRAILS = [
 
 const SUBJECT_LINES = [
   "Stephanie, I made something for Nirvana Skin Co",
-  "had an idea for Nirvana Skin Co",
-  "quick thing I built for Nirvana Skin Co",
+  "Had an idea for Nirvana Skin Co",
+  "Tried something with the Nirvana Skin Co site"
 ];
 
 const COLD_EMAIL = `Hi Stephanie,
 
-I came across Nirvana Skin Co and ended up spending a little time on the site.
+I came across Nirvana Skin Co and ended up spending some time on the site.
 
-You already have a lot of good stuff there, real services, real people, and a clear point of view.
-
-I had an idea for how I'd present it, so I built a version instead of sending you a list of suggestions.
+There was already a lot there worth working with, so I had an idea for how I would present it and built the version instead of sending a long list of suggestions.
 
 https://nirvana-skin-co-rancho-cucamonga.vercel.app
 
 Thought you might be curious to see it.
 
-If you like the direction, I can show you what I changed.
+If you like the direction, I can show you what I changed and why.
 
 Vincent
 Novenworks`;
 
 const FOLLOW_UP_ONE = `Hi Stephanie,
 
-Just bumping this once in case it got buried. I made that Nirvana Skin Co homepage concept and figured you might at least be curious to see how it came out.
+Just bumping this once in case it got buried. I put together that Nirvana Skin Co concept and wanted to make sure you saw it.
 
 https://nirvana-skin-co-rancho-cucamonga.vercel.app
 
-All good if now isn't the time. Just wanted to make sure you saw it.
+No pressure either way.
 
 Vincent`;
 
 const FOLLOW_UP_TWO = `Hi Stephanie,
 
-Last note from me on this. I'll leave the Nirvana Skin Co concept up in case you want to look at it later.
+Last note from me on this. I will leave the Nirvana Skin Co concept up in case you want to look at it later.
 
 https://nirvana-skin-co-rancho-cucamonga.vercel.app
-
-No reply needed.
 
 Vincent`;
 
