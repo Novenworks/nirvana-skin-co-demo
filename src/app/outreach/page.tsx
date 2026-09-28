@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 
-const DEMO_URL = "https://nirvana-skin-co-demo.vercel.app";
+const DEMO_URL = "https://nirvana-skin-co-rancho-cucamonga.vercel.app";
 
 const TALKING_POINTS: [string, string][] = [
   [
@@ -31,9 +31,9 @@ const TALKING_POINTS: [string, string][] = [
 ];
 
 const HOOKS = [
-  "The studio sits on the Haven Ave / Laurel St corridor near Victoria Gardens \u2014 a specific, genuinely local detail.",
+  "The studio is in Suite 280 at 10737 Laurel St, Rancho Cucamonga: a specific, genuinely local detail.",
   "Corrective skin work is the least glamorous and most repeat-driven part of esthetics; choosing to build around it says something.",
-  "She kept Comb Works as the booking system rather than switching \u2014 worth acknowledging that the concept leaves it alone.",
+  "She uses Comb Works for booking, services and hours. Worth acknowledging that the concept leaves it alone and links to it.",
   "Her reviews describe multi-visit journeys rather than one-off facials, which matches how she talks about the work.",
 ];
 
@@ -59,13 +59,13 @@ const SUBJECT_LINES = [
 
 const COLD_EMAIL = `Hi Stephanie,
 
-I came across Nirvana Skin Co and ended up spending some time on the site.
+I came across Nirvana Skin Co and ended up spending some time on the site and your Comb Works menu.
 
-There was already a lot there worth working with, so I had an idea for how I would present it and built the version instead of sending a long list of suggestions.
+There was already a lot there worth working with: the Nirvana Glow facials, the Perfect Derma Peel, microneedling, and the membership. So I built a version of the site instead of sending a list of suggestions. It lets someone start from what their skin is dealing with (breakouts, dryness, texture or upkeep) and lands them on the right first appointment, with every booking button still going to your Comb Works page.
 
-https://nirvana-skin-co-rancho-cucamonga.vercel.app
+${DEMO_URL}
 
-Thought you might be curious to see it.
+Also, a small heads-up: the FAQ page on nirvanaskinco.com still shows some of the theme's sample text, in case that is useful.
 
 If you like the direction, I can show you what I changed and why.
 
@@ -74,9 +74,9 @@ Novenworks`;
 
 const FOLLOW_UP_ONE = `Hi Stephanie,
 
-Just bumping this once in case it got buried. I put together that Nirvana Skin Co concept and wanted to make sure you saw it.
+Just bumping this once in case it got buried. I put together a Nirvana Skin Co site concept that starts people from their skin concern and sends them straight to your Comb Works booking, and wanted to make sure you saw it.
 
-https://nirvana-skin-co-rancho-cucamonga.vercel.app
+${DEMO_URL}
 
 No pressure either way.
 
@@ -86,34 +86,34 @@ const FOLLOW_UP_TWO = `Hi Stephanie,
 
 Last note from me on this. I will leave the Nirvana Skin Co concept up in case you want to look at it later.
 
-https://nirvana-skin-co-rancho-cucamonga.vercel.app
+${DEMO_URL}
 
 Vincent`;
 
-const PHONE_OPENING = `"Hi Stephanie, this is Vince with Novenworks. I was on your site and noticed the FAQ still has some template placeholder text in it \u2014 worth a quick look. That got me curious, and I ended up building a website concept for the studio. I sent it over by email and just wanted to make sure it reached you."`;
+const PHONE_OPENING = `"Hi Stephanie, this is Vince with Novenworks. I was on your site and noticed the FAQ still has some template placeholder text in it, worth a quick look. That got me curious, and I ended up building a website concept for the studio. I sent it over by email and just wanted to make sure it reached you."`;
 
 const PHONE_BRANCHES: [string, string][] = [
-  ["If she hasn't seen it", "\u201cNo problem \u2014 it may have gone to a promotions folder. What's the best address for you? I'll send it back over today.\u201d Confirm and resend while on the call."],
+  ["If she hasn't seen it", "\u201cNo problem, it may have gone to a promotions folder. What's the best address for you? I'll send it back over today.\u201d Confirm and resend while on the call."],
   ["If she asks what you changed", "\u201cTwo main things. People can start from what they're dealing with rather than from a treatment name, so they land on the right first appointment. And your experience is up front instead of further down. Booking still goes to your Comb Works.\u201d"],
-  ["If she likes it", "\u201cGlad it landed. If you want, I can walk you through what it would take to make it real \u2014 what I'd need from you and roughly what's involved. Want to find a time?\u201d"],
-  ["If she asks how you built it", "Answer honestly. Do not claim more handcraft than is true, and do not be evasive: \u201cI built it myself using what's on your site \u2014 your services, your wording, your photos. Happy to show you how any part of it works.\u201d"],
-  ["If she's not interested", "\u201cCompletely understood \u2014 thanks for taking the call. The FAQ placeholder text is worth a look either way. Have a good one.\u201d Leave the useful part behind and end there."],
+  ["If she likes it", "\u201cGlad it landed. If you want, I can walk you through what it would take to make it real: what I'd need from you and roughly what's involved. Want to find a time?\u201d"],
+  ["If she asks how you built it", "Answer honestly. Do not claim more handcraft than is true, and do not be evasive: \u201cI built it myself using what's on your site: your services, your wording, your photos. Happy to show you how any part of it works.\u201d"],
+  ["If she's not interested", "\u201cCompletely understood, thanks for taking the call. The FAQ placeholder text is worth a look either way. Have a good one.\u201d Leave the useful part behind and end there."],
 ];
 
-const VOICEMAIL = `"Hi Stephanie, this is Vince with Novenworks. I noticed the FAQ on your site still has some template placeholder text in it \u2014 worth a quick look. I also put together a website concept for Nirvana Skin Co. and emailed you the link. No need to call me back. Thanks."`;
+const VOICEMAIL = `"Hi Stephanie, this is Vince with Novenworks. I noticed the FAQ on your site still has some template placeholder text in it, worth a quick look. I also put together a website concept for Nirvana Skin Co. and emailed you the link. No need to call me back. Thanks."`;
 
 const NEEDS_VERIFICATION = [
-  "Not sendable as previously written: the emails contained the literal placeholders [DEMO_URL], [YOUR_NAME], [YOUR_PHONE] and [YOUR_TITLE]. Copy now signs as Vince, and the URL is inferred from the repository name \u2014 confirm it resolves before sending.",
-  "Stephanie's surname and a direct email address are not established here. Find them before sending, and do not guess.",
+  "Contact: aestheticsbynirvana@gmail.com is the Email link on Stephanie Cevallos's own Linktree (linked from @nirvanaskinco). It is not published on nirvanaskinco.com, which sits behind a bot check. Treat it as a first-party social-profile address.",
+  "Confirm the concept URL resolves and shows the current version before sending.",
   "Re-check that the FAQ placeholder text is still live \u2014 it is the lead observation and a two-minute fix on her end.",
-  "The 4.9 Yelp rating was accurate at capture and will move. It is internal context only and must not be cited.",
+  "Ratings and review counts are not shown on the concept and must not be cited. The reviews quoted on the concept are attributed to Google but could not be matched to a live listing during QA; confirm them or remove them before a handoff.",
   "The \u201c5+ years\u201d of medical aesthetic experience is reproduced as published and has not been independently confirmed.",
   "Confirm Comb Works is still her booking system before referencing it.",
 ];
 
 export default function OutreachPage() {
   return (
-    <div className="min-h-screen bg-stone-900 text-stone-100 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-stone-900 text-stone-100 pt-28 sm:pt-36 pb-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto space-y-12">
         {/* Header Badge */}
         <div className="border-b border-stone-800 pb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -152,7 +152,7 @@ export default function OutreachPage() {
             </div>
             <div>
               <span className="text-stone-400 block text-xs uppercase tracking-wider font-mono">Founder & Lead Aesthetician</span>
-              <span className="text-stone-100 font-medium text-base">Stephanie (Licensed Medical Aesthetician, 5+ yrs)</span>
+              <span className="text-stone-100 font-medium text-base">Stephanie Cevallos (Licensed Medical Esthetician, 5+ yrs, as she publishes it)</span>
             </div>
             <div>
               <span className="text-stone-400 block text-xs uppercase tracking-wider font-mono">Location</span>
@@ -160,11 +160,15 @@ export default function OutreachPage() {
             </div>
             <div>
               <span className="text-stone-400 block text-xs uppercase tracking-wider font-mono">Direct Phone / SMS</span>
-              <span className="text-stone-100 font-medium text-base">(909) 504-9341</span>
+              <span className="text-stone-100 font-medium text-base">(909) 504-9341 (listed on her Comb Works page)</span>
+            </div>
+            <div>
+              <span className="text-stone-400 block text-xs uppercase tracking-wider font-mono">Email</span>
+              <span className="text-stone-100 font-medium text-base">aestheticsbynirvana@gmail.com (the Email link on her own Linktree, linktr.ee/nirvanaskinco; not on nirvanaskinco.com)</span>
             </div>
             <div>
               <span className="text-stone-400 block text-xs uppercase tracking-wider font-mono">Reputation & Social Proof</span>
-              <span className="text-stone-100 font-medium text-base">4.9 ★ (31 verified 5-star reviews on Yelp & Google)</span>
+              <span className="text-stone-100 font-medium text-base">Yelp listing shows 29 reviews (search snippet, June 2026); Google rating/count not re-verified. Internal only, do not cite.</span>
             </div>
             <div>
               <span className="text-stone-400 block text-xs uppercase tracking-wider font-mono">Booking Software</span>
@@ -206,7 +210,7 @@ export default function OutreachPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-1 font-bold">•</span>
-                <span><strong>Missing Local Schema & Mobile Ergonomics:</strong> Lack of rich structured data for Rancho Cucamonga search indexing and inconsistent mobile tap targets.</span>
+                <span><strong>Split Experience:</strong> Services, prices and hours live on Comb Works while nirvanaskinco.com carries a separate service list, so a visitor has to piece the two together.</span>
               </li>
             </ul>
           </div>
@@ -223,7 +227,7 @@ export default function OutreachPage() {
             <ul className="space-y-3 text-sm text-stone-300">
               <li className="flex items-start gap-2">
                 <span className="text-emerald-400 mt-1 font-bold">•</span>
-                <span><strong>Factual, Polished Narrative:</strong> 100% real content. Zero placeholder copy. Real policies (24h cancellation, parking, consultation prep).</span>
+                <span><strong>Factual, Polished Narrative:</strong> Services, prices, hours and policies taken from her Comb Works page (no-show and reschedule policy, free lot parking, appointment only).</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-emerald-400 mt-1 font-bold">•</span>
@@ -231,11 +235,11 @@ export default function OutreachPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-emerald-400 mt-1 font-bold">•</span>
-                <span><strong>Elevated Brand Aesthetics:</strong> Calm editorial typography (Cinzel & Plus Jakarta Sans), warm sand/cream palette, and real high-res studio photography.</span>
+                <span><strong>Elevated Brand Aesthetics:</strong> Calm serif/sans typography, warm sand palette, and her own studio photography. No client treatment or result photos are used.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-emerald-400 mt-1 font-bold">•</span>
-                <span><strong>Flawless Local Schema:</strong> Full `HealthAndBeautyBusiness` JSON-LD schema with exact coordinates, hours, pricing tier, and Rancho Cucamonga geographic tags.</span>
+                <span><strong>Local Business Schema:</strong> `HealthAndBeautyBusiness` JSON-LD with address, phone and hours from her booking page. No rating, coordinates or price tier are claimed.</span>
               </li>
             </ul>
           </div>

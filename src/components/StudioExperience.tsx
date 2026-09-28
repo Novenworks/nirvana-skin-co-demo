@@ -73,16 +73,16 @@ export default function StudioExperience() {
           <div className="lg:col-span-6 grid grid-cols-2 gap-4">
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-md border border-sand-200">
               <Image
-                src="/images/facial-treatment-2.png"
-                alt="Professional facial therapy and active serums at Nirvana Skin Co."
+                src="/images/service-teen.webp"
+                alt="Facial tools, rollers and gua sha laid out on a towel"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-md border border-sand-200 mt-6">
               <Image
-                src="/images/facial-treatment-3.png"
-                alt="Targeted modalities and soothing masks at Nirvana Skin Co."
+                src="/images/service-glow45.webp"
+                alt="Unwinding in a robe with a face mask"
                 fill
                 className="object-cover"
               />

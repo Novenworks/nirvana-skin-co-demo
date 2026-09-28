@@ -8,7 +8,7 @@ const STEPS = [
     number: "01",
     title: "Detailed Consultation & Skin Analysis",
     description:
-      "We begin with an unhurried discussion of your lifestyle, current products, and skin concerns. Stephanie analyzes your skin barrier under magnification to identify what your complexion needs that exact day.",
+      "We begin with an unhurried discussion of your lifestyle, current products, and skin concerns. Stephanie analyzes your skin to identify what your complexion needs that exact day.",
     icon: Search,
   },
   {
@@ -96,7 +96,7 @@ export default function HowCustomizationWorks() {
                 A private sanctuary built for your comfort.
               </h3>
               <p className="text-xs sm:text-sm text-noir-700 leading-relaxed mb-6">
-                From personalized playlists to soothing heated beds and complimentary beverages, every detail at Nirvana Skin Co. is designed to make advanced skincare feel peaceful, restorative, and completely comfortable.
+                From personalized playlists to complimentary beverages and snacks, every detail at Nirvana Skin Co. is designed to make advanced skincare feel peaceful, restorative, and completely comfortable.
               </p>
 
               <div className="space-y-2 text-xs sm:text-sm text-noir-800 mb-6">
@@ -106,7 +106,7 @@ export default function HowCustomizationWorks() {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-sage-600 flex-shrink-0" />
-                  <span>Custom aroma, lighting & music settings</span>
+                  <span>Music and products tailored to your preferences</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-sage-600 flex-shrink-0" />
@@ -127,16 +127,16 @@ export default function HowCustomizationWorks() {
             <div className="lg:col-span-7 grid grid-cols-2 gap-3 sm:gap-4">
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-md border border-sand-200">
                 <Image
-                  src="/images/studio-room-1.jpg"
-                  alt="Nirvana Skin Co. treatment suite in Rancho Cucamonga"
+                  src="/images/stephanie-hero.jpg"
+                  alt="Seating corner with candles and flowers inside the Nirvana Skin Co. studio"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-md border border-sand-200">
                 <Image
-                  src="/images/studio-room-2.jpg"
-                  alt="Nirvana Skin Co. cozy treatment room setup"
+                  src="/images/facial-treatment-2.png"
+                  alt="Nirvana Skin Co. sign on the studio wall"
                   fill
                   className="object-cover"
                 />

@@ -42,8 +42,6 @@ export const BUSINESS_INFO = {
   phone: "(909) 504-9341",
   phoneFormatted: "(909) 504-9341",
   phoneNumeric: "9095049341",
-  rating: "4.9",
-  reviewCount: 31,
   bookingUrl: "https://nirvanaskinco.comb.works/services",
   combBookingUrl: "https://nirvanaskinco.comb.works/services",
   instagramUrl: "https://www.instagram.com/nirvanaskinco/",
@@ -51,7 +49,7 @@ export const BUSINESS_INFO = {
   tiktokUrl: "https://www.tiktok.com/@nirvanaskinco",
   mapsUrl: "https://www.google.com/maps?q=10737+Laurel+St+Suite+280,+Rancho+Cucamonga,+CA+91730",
   hours: [
-    { day: "Monday", hours: "10:30 AM – 12:30 PM", status: "open" },
+    { day: "Monday", hours: "Closed", status: "closed" },
     { day: "Tuesday", hours: "10:30 AM – 7:00 PM", status: "open" },
     { day: "Wednesday", hours: "9:00 AM – 7:00 PM", status: "open" },
     { day: "Thursday", hours: "9:00 AM – 7:00 PM", status: "open" },
@@ -62,11 +60,11 @@ export const BUSINESS_INFO = {
   amenities: [
     "Private dedicated treatment suite",
     "Tailored playlist & relaxing ambiance",
-    "Complimentary refreshments & drinks",
+    "Complimentary beverages & snacks",
     "Free on-site parking lot",
     "Wheelchair accessible",
     "Kid friendly environment",
-    "Flexible payment options (Affirm, Klarna, Apple Pay, Cards)"
+    "Apple Pay, Google Pay, major cards, Venmo, Zelle & cash"
   ]
 };
 
@@ -142,14 +140,14 @@ export const SERVICES: ServiceItem[] = [
   {
     id: "perfect-derma-peel",
     name: "The Perfect Derma Chemical Peel",
-    tagline: "Clinical-grade medium depth transformative peel",
+    tagline: "Medium-depth corrective chemical peel",
     duration: "1 Hour",
     price: "$350.00",
     category: "corrective",
     concern: ["clarity", "texture"],
-    description: "A medium-depth medical-grade peel designed to transform skin from the inside out. Formulated with glutathione, kojic acid, TCA, and vitamin C to target hyperpigmentation, sun damage, and stubborn texture with predictable, gentle shedding over several days.",
-    modalitiesIncluded: ["Clinical Degreasing", "Multi-pass Layering", "Post-Peel Take Home Kit", "Recovery Instructions"],
-    image: "/images/service-derma-peel.webp",
+    description: "A medium-depth chemical peel, carefully layered to address concerns such as acne, melasma, sun damage, texture, scarring, or dullness. Gentle peeling follows over the days after your service, and you leave with aftercare instructions.",
+    modalitiesIncluded: ["Skin Prep", "Layered Application", "Aftercare Instructions"],
+    image: "/images/service-peel.webp",
     badge: "Clinical Favorite",
     combBookingUrl: "https://nirvanaskinco.comb.works/services"
   },
@@ -161,8 +159,8 @@ export const SERVICES: ServiceItem[] = [
     price: "$250.00",
     category: "corrective",
     concern: ["texture"],
-    description: "Includes a full preparation facial. Controlled micro-channels stimulate natural collagen and elastin production, smoothing acne scars, refining enlarged pores, and softening fine lines for plumper, firmer skin.",
-    modalitiesIncluded: ["Prep Facial Cleanse", "Precision Microneedling", "Hyaluronic Acid Infusion", "Calming Peptide Finish"],
+    description: "Includes a regular facial. Tiny, controlled micro-channels encourage collagen production to help smooth texture, soften the look of fine lines, and refine the appearance of pores.",
+    modalitiesIncluded: ["Facial Included", "Controlled Microneedling"],
     image: "/images/service-microneedling.webp",
     badge: "Collagen Induction",
     combBookingUrl: "https://nirvanaskinco.comb.works/services"
@@ -172,7 +170,7 @@ export const SERVICES: ServiceItem[] = [
     name: "Nirvana Teen Glow",
     tagline: "Gentle, educational skincare for young & changing skin",
     duration: "45 Minutes",
-    price: "$135.00",
+    price: "$150.00",
     category: "facials",
     concern: ["clarity", "maintenance"],
     description: "Addresses congestion, breakouts, and sensitivity with a supportive approach. Includes purifying cleanse, soft exfoliation, gentle extractions, soothing anti-bacterial high-frequency or LED, and practical guidance on building healthy skincare habits.",
@@ -196,14 +194,14 @@ export const SERVICES: ServiceItem[] = [
   {
     id: "teeth-whitening-60",
     name: "Professional Teeth Whitening (60 Min)",
-    tagline: "FDA-compliant brightening with vegan, cruelty-free gel",
+    tagline: "Professional whitening with a certified vegan, cruelty-free gel",
     duration: "1 Hour 30 Min",
     price: "$200.00",
     category: "teeth",
     concern: ["maintenance"],
-    description: "Brighten your smile safely and effectively. Using certified vegan, cruelty-free professional bleaching agents with sensitive-safe options to lift surface stains and discoloration.",
-    modalitiesIncluded: ["Enamel Prep", "Vegan Whitening Gel", "LED Acceleration", "Post-Shade Assessment"],
-    image: "/images/service-teeth.webp",
+    description: "A professional teeth whitening session to lift surface stains and discoloration, using a certified vegan, cruelty-free whitening agent.",
+    modalitiesIncluded: ["Professional Whitening Session", "Vegan & Cruelty-Free Gel"],
+    image: "/images/comb-profile.webp",
     combBookingUrl: "https://nirvanaskinco.comb.works/services"
   }
 ];
@@ -230,7 +228,7 @@ export const CONCERN_PATHWAYS = [
     name: "Texture & Cellular Renewal",
     icon: "Layers",
     summary: "For uneven texture, acne scarring, sun spots, and fine lines.",
-    description: "Targeted dermaplaning, microneedling, and clinical-grade chemical peels that stimulate natural collagen and reveal smooth, renewed skin.",
+    description: "Dermaplaning, microneedling, and chemical peels chosen for your skin to address uneven texture, dullness, and the look of fine lines.",
     suggestedServices: ["microneedling-facial", "perfect-derma-peel", "custom-chemical-peel"]
   },
   {
@@ -303,7 +301,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: "How do you customize each treatment?",
-    answer: "No two facials at Nirvana are identical. Stephanie evaluates your skin under magnification before starting and dynamically adapts the cleansers, enzymes, peeling strength, extractions, masks, and modalities (such as LED therapy, ultrasonic infusion, high frequency, microdermabrasion, or dermaplaning) to what your skin requires that day.",
+    answer: "No two facials at Nirvana are identical. Stephanie evaluates your skin before starting and adapts the cleansers, enzymes, peeling strength, extractions, masks, and modalities (such as LED therapy, ultrasonic infusion, high frequency, microdermabrasion, or dermaplaning) to what your skin requires that day.",
     category: "treatments"
   },
   {
@@ -313,17 +311,17 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: "Where is the studio located and what is parking like?",
-    answer: "We are located at 10737 Laurel St Suite 280 in Rancho Cucamonga, CA 91730. Free and convenient parking is always available in the attached on-site lot.",
+    answer: "We are located at 10737 Laurel St Suite 280 in Rancho Cucamonga, CA 91730. Free parking is available in the lot.",
     category: "appointments"
   },
   {
     question: "What payment methods do you accept?",
-    answer: "We accept Visa, MasterCard, American Express, Discover, Apple Pay, Google Pay, Venmo, Zelle, Cash, and flexible split-payment options through Affirm and Klarna on qualifying bookings.",
+    answer: "We accept Visa, Mastercard, American Express, Discover, Apple Pay, Google Pay, Venmo, Zelle, and cash.",
     category: "policies"
   },
   {
     question: "Is there downtime after treatments like chemical peels or microneedling?",
-    answer: "Our standard facials (Nirvana Glow 45/60/90) have zero downtime—you leave glowing and refreshed. For corrective treatments like The Perfect Derma Peel or Microneedling, mild redness or light peeling occurs over 3–5 days. We provide comprehensive aftercare instructions and take-home samples with every corrective service.",
+    answer: "The Nirvana Glow facials are designed to let you get back to your day. Corrective treatments like The Perfect Derma Peel or Microneedling can involve some redness or peeling in the days afterward, and Stephanie walks you through what to expect and how to care for your skin.",
     category: "treatments"
   },
   {

@@ -7,7 +7,7 @@ import { SERVICES, BUSINESS_INFO } from "@/lib/data";
 export default function FeaturedTreatments() {
   // Pick core featured treatments for homepage showcase
   const featured = SERVICES.filter((s) =>
-    ["new-client-consultation", "nirvana-glow-60", "nirvana-glow-90", "perfect-derma-peel", "microneedling-facial", "teeth-whitening-60"].includes(s.id)
+    ["new-client-consultation", "nirvana-glow-60", "nirvana-glow-90", "perfect-derma-peel", "microneedling-facial", "nirvana-body-glow"].includes(s.id)
   );
 
   return (

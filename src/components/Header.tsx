@@ -30,7 +30,7 @@ export default function Header() {
             </span>
             <span className="flex items-center gap-1.5 font-medium text-sand-300">
               <Clock className="w-3.5 h-3.5 text-sand-400" />
-              Tue–Fri 9am–7pm · Sat 9am–3pm
+              Tue–Sat · By appointment · Closed Sun–Mon
             </span>
           </div>
           <div className="flex items-center gap-4">
@@ -41,10 +41,6 @@ export default function Header() {
               <Phone className="w-3.5 h-3.5" />
               {BUSINESS_INFO.phone}
             </a>
-            <span className="text-noir-600">•</span>
-            <span className="text-sand-400 font-semibold tracking-wide">
-              ★ 4.9 (31 Verified Reviews)
-            </span>
           </div>
         </div>
       </div>
@@ -218,7 +214,7 @@ export default function Header() {
                 href={`tel:${BUSINESS_INFO.phoneNumeric}`}
                 className="py-2.5 text-center text-xs font-semibold text-noir-900 bg-sand-200/80 rounded-xl flex items-center justify-center gap-1.5"
               >
-                <Phone className="w-3.5 h-3.5" /> Call ({BUSINESS_INFO.phone})
+                <Phone className="w-3.5 h-3.5" /> Call {BUSINESS_INFO.phone}
               </a>
               <a
                 href={`sms:${BUSINESS_INFO.phoneNumeric}`}

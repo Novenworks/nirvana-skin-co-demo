@@ -15,11 +15,10 @@ export default function TrustStrip() {
             </div>
             <div>
               <div className="flex items-center justify-center sm:justify-start gap-1 font-serif text-lg font-bold text-noir-950">
-                <span>{BUSINESS_INFO.rating}</span>
-                <span className="text-xs text-amber-500 font-sans">★★★★★</span>
+                <span>5-Star Reviews</span>
               </div>
               <p className="text-xs text-noir-600 font-medium">
-                {BUSINESS_INFO.reviewCount} Verified Client Reviews
+                On Google &amp; Yelp
               </p>
             </div>
           </div>
