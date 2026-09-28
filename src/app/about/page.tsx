@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="bg-sand-100 py-16 md:py-24 border-b border-sand-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cream-50 border border-sand-300 text-stone-700 text-xs font-medium uppercase tracking-wider mb-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sand-50 border border-sand-300 text-stone-700 text-xs font-medium uppercase tracking-wider mb-6">
               <Sparkles className="w-3.5 h-3.5 text-stone-500" />
               Meet Your Aesthetician
             </div>
@@ -30,7 +30,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stephanie Bio & Journey */}
-      <section className="py-16 md:py-24 bg-cream-50">
+      <section className="py-16 md:py-24 bg-sand-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             {/* Image Column */}
@@ -62,13 +62,13 @@ export default function AboutPage() {
             <div className="lg:col-span-7 space-y-6">
               <div className="space-y-4">
                 <h2 className="font-serif text-3xl sm:text-4xl text-stone-900 font-light">
-                  Hi, I’m Stephanie.
+                  Meet Stephanie.
                 </h2>
                 <p className="text-stone-700 leading-relaxed text-base sm:text-lg">
-                  As a Licensed Medical Aesthetician with over five years of hands-on experience, I’ve worked with skin at every stage—from stubborn hormonal breakouts and barrier fatigue to post-inflammatory hyperpigmentation and early signs of aging.
+                  Stephanie is the founder of Nirvana Skin Co. and a Licensed Medical Aesthetician with over five years of experience in advanced skincare, offering personalized facial treatments tailored to each client’s needs and skin type.
                 </p>
                 <p className="text-stone-700 leading-relaxed text-base sm:text-lg">
-                  I believe that glowing, healthy skin shouldn’t require harsh, aggressive over-treatment or complicated 12-step routines that you dread doing. Instead, every appointment in my Rancho Cucamonga studio is a collaborative partnership.
+                  Glowing, healthy skin shouldn’t require harsh over-treatment or complicated routines you dread doing. Every appointment in the Rancho Cucamonga studio starts with your skin as it is that day.
                 </p>
               </div>
 
@@ -79,7 +79,7 @@ export default function AboutPage() {
                   </div>
                   <h3 className="font-serif text-lg font-medium text-stone-900 mb-1">Barrier-First Care</h3>
                   <p className="text-xs text-stone-600 leading-relaxed">
-                    We never compromise your skin barrier for short-term quick fixes. Long-term cellular health comes first.
+                    Treatments are chosen to respect your skin barrier rather than chase quick fixes.
                   </p>
                 </div>
 
@@ -99,13 +99,13 @@ export default function AboutPage() {
                   href={BUSINESS_INFO.bookingUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-stone-900 text-cream-50 hover:bg-stone-800 transition font-medium text-sm shadow-md"
+                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-stone-900 text-sand-50 hover:bg-stone-800 transition font-medium text-sm shadow-md"
                 >
                   <span>Book with Stephanie</span>
                   <ArrowRight className="w-4 h-4" />
                 </Link>
                 <a
-                  href={`tel:${BUSINESS_INFO.phone}`}
+                  href={`tel:${BUSINESS_INFO.phoneNumeric}`}
                   className="inline-flex items-center justify-center px-6 py-3.5 rounded-full bg-white text-stone-900 hover:bg-sand-100 border border-sand-300 transition font-medium text-sm"
                 >
                   Call {BUSINESS_INFO.phoneFormatted}
@@ -124,47 +124,47 @@ export default function AboutPage() {
               Inside the Rancho Cucamonga Studio
             </h2>
             <p className="mt-4 text-stone-600">
-              Located conveniently in Rancho Cucamonga at 10737 Laurel St (Suite 280), designed with tranquil warmth, medical sanitation, and plush comfort.
+              Located conveniently in Rancho Cucamonga at 10737 Laurel St (Suite 280), designed with tranquil warmth and comfort.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md group">
               <Image
-                src="/images/studio-room-1.jpg"
-                alt="Nirvana Skin Co studio room interior"
+                src="/images/stephanie-hero.jpg"
+                alt="Seating corner with candles and flowers inside the Nirvana Skin Co. studio"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent flex items-end p-6">
-                <span className="text-white text-sm font-medium font-serif">Treatment Suite & Heated Bed</span>
-              </div>
-            </div>
-
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md group">
-              <Image
-                src="/images/studio-room-2.jpg"
-                alt="Nirvana Skin Co consultation and treatment station"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                sizes="(max-width: 768px) 100vw, 33vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent flex items-end p-6">
-                <span className="text-white text-sm font-medium font-serif">Clinical Formulations & Modalities</span>
+                <span className="text-white text-sm font-medium font-serif">Studio Seating Corner</span>
               </div>
             </div>
 
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md group">
               <Image
                 src="/images/facial-treatment-2.png"
-                alt="Hands-on facial treatment with Stephanie"
+                alt="Nirvana Skin Co. sign on the studio wall"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 sizes="(max-width: 768px) 100vw, 33vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent flex items-end p-6">
-                <span className="text-white text-sm font-medium font-serif">High-Touch Aesthetic Care</span>
+                <span className="text-white text-sm font-medium font-serif">The Suite 280 Studio</span>
+              </div>
+            </div>
+
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-md group">
+              <Image
+                src="/images/service-teen.webp"
+                alt="Facial tools, rollers and gua sha laid out on a towel"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent flex items-end p-6">
+                <span className="text-white text-sm font-medium font-serif">Facial Tools</span>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function AboutPage() {
       </section>
 
       {/* The 4 Principles */}
-      <section className="py-16 md:py-24 bg-cream-50">
+      <section className="py-16 md:py-24 bg-sand-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-12">
             <h2 className="font-serif text-3xl sm:text-4xl text-stone-900 font-light">
@@ -201,9 +201,9 @@ export default function AboutPage() {
                 2
               </div>
               <div>
-                <h3 className="font-serif text-lg font-medium text-stone-900 mb-1">Clear Pricing & No Hidden Upsells</h3>
+                <h3 className="font-serif text-lg font-medium text-stone-900 mb-1">Published Pricing</h3>
                 <p className="text-sm text-stone-600 leading-relaxed">
-                  Modalities such as LED therapy, high frequency, enzyme exfoliation, and custom serums are thoughtfully included in your facial duration, not tacked on as surprise add-ons.
+                  Service prices and durations are listed up front, and modalities such as LED, high frequency, or microdermabrasion are chosen within your facial based on what your skin needs that day.
                 </p>
               </div>
             </div>
@@ -213,9 +213,9 @@ export default function AboutPage() {
                 3
               </div>
               <div>
-                <h3 className="font-serif text-lg font-medium text-stone-900 mb-1">Medical-Grade Hygiene</h3>
+                <h3 className="font-serif text-lg font-medium text-stone-900 mb-1">Appointment-Only Studio</h3>
                 <p className="text-sm text-stone-600 leading-relaxed">
-                  Hospital-grade disinfection protocols, disposable single-use micro-needling tips, and sanitary studio practices ensure your safety at every touchpoint.
+                  Nirvana Skin Co. works by appointment only, so your time in the suite is reserved just for you.
                 </p>
               </div>
             </div>

@@ -54,7 +54,7 @@ export default function Footer() {
                 className="px-2.5 py-1.5 rounded-lg bg-noir-800 hover:bg-noir-700 text-sand-300 hover:text-white text-xs font-semibold transition"
                 aria-label="Yelp Reviews"
               >
-                Yelp (4.9 ★)
+                Yelp
               </a>
               <a
                 href={BUSINESS_INFO.tiktokUrl}

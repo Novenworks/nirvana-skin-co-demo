@@ -12,10 +12,11 @@
 - **Direct Phone**: `tel:9095049341` verified across microbar, hero, footer, and outreach dossier.
 - **Direct SMS**: `sms:9095049341` verified in booking banners.
 - **Comb Works Booking**: `https://nirvanaskinco.comb.works/services` linked on all primary CTAs.
-- **Address & Geo Coordinates**: 10737 Laurel St Suite 280, Rancho Cucamonga, CA 91730 (Lat: 34.1048078, Long: -117.5709326).
-- **Hours of Operation**:
-  - Mon: 10:30 AM – 12:30 PM
-  - Tue–Thu: 9:00 AM – 7:00 PM
+- **Address**: 10737 Laurel St Suite 280, Rancho Cucamonga, CA 91730 (no geo coordinates in schema).
+- **Hours of Operation** (Comb Works, re-verified 2026-09-28):
+  - Mon: Closed
+  - Tue: 10:30 AM – 7:00 PM
+  - Wed–Thu: 9:00 AM – 7:00 PM
   - Fri: 9:00 AM – 6:00 PM
   - Sat: 9:00 AM – 3:00 PM
   - Sun: Closed

@@ -52,7 +52,6 @@ const jsonLd = {
   "description": BUSINESS_INFO.supportingCopy,
   "url": "https://nirvanaskinco.com",
   "telephone": BUSINESS_INFO.phone,
-  "priceRange": "$$",
   "image": "https://nirvanaskinco.com/images/facial-treatment-1.png",
   "address": {
     "@type": "PostalAddress",
@@ -62,21 +61,16 @@ const jsonLd = {
     "postalCode": BUSINESS_INFO.zip,
     "addressCountry": "US"
   },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 34.1048078,
-    "longitude": -117.5709326
-  },
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday"],
+      "dayOfWeek": ["Tuesday"],
       "opens": "10:30",
-      "closes": "12:30"
+      "closes": "19:00"
     },
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday"],
+      "dayOfWeek": ["Wednesday", "Thursday"],
       "opens": "09:00",
       "closes": "19:00"
     },

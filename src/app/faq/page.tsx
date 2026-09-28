@@ -15,7 +15,7 @@ export default function FaqPage() {
       <section className="bg-sand-100 py-16 md:py-24 border-b border-sand-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cream-50 border border-sand-300 text-stone-700 text-xs font-medium uppercase tracking-wider mb-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sand-50 border border-sand-300 text-stone-700 text-xs font-medium uppercase tracking-wider mb-6">
               <HelpCircle className="w-3.5 h-3.5 text-stone-500" />
               Client Resource & Studio Policies
             </div>
@@ -39,7 +39,7 @@ export default function FaqPage() {
               </div>
               <h3 className="font-serif text-lg font-medium text-stone-900 mb-1">Cancellation Policy</h3>
               <p className="text-sm text-stone-600 leading-relaxed">
-                Please provide at least 24 hours notice if you need to reschedule or cancel to allow other clients the opportunity to book.
+                Missed appointments without prior notice are charged the full service amount, and rescheduling requires 50% of the service paid in advance.
               </p>
             </div>
 
@@ -49,7 +49,7 @@ export default function FaqPage() {
               </div>
               <h3 className="font-serif text-lg font-medium text-stone-900 mb-1">Studio Location & Parking</h3>
               <p className="text-sm text-stone-600 leading-relaxed">
-                10737 Laurel St Suite 280, Rancho Cucamonga. Plentiful free on-site plaza parking right outside the building.
+                10737 Laurel St Suite 280, Rancho Cucamonga. Free parking is available in the lot.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function FaqPage() {
               </div>
               <h3 className="font-serif text-lg font-medium text-stone-900 mb-1">First-Timer Consultation</h3>
               <p className="text-sm text-stone-600 leading-relaxed">
-                Unsure what your skin needs? Book a 30-min Consultation ($50) or the Nirvana Glow 60. Stephanie customizes your treatment live.
+                Unsure what your skin needs? Book the 1-hour New Client Consultation ($50) or the Nirvana Glow 60. Stephanie customizes your treatment live.
               </p>
             </div>
           </div>
@@ -80,8 +80,8 @@ export default function FaqPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href={`tel:${BUSINESS_INFO.phone}`}
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-stone-900 text-cream-50 hover:bg-stone-800 transition text-sm font-medium shadow-sm"
+              href={`tel:${BUSINESS_INFO.phoneNumeric}`}
+              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-stone-900 text-sand-50 hover:bg-stone-800 transition text-sm font-medium shadow-sm"
             >
               <Phone className="w-4 h-4" />
               <span>Call / Text (909) 504-9341</span>

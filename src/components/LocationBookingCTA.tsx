@@ -71,7 +71,7 @@ export default function LocationBookingCTA() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-sage-400 flex-shrink-0" />
-                  <span>Affirm & Klarna payment options</span>
+                  <span>Apple Pay, Venmo, Zelle & cards accepted</span>
                 </div>
               </div>
             </div>

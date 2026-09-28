@@ -13,7 +13,7 @@ export default function ReviewsSection() {
             Client Experiences
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl text-noir-950 font-normal tracking-tight">
-            Verified Reviews from Real Clients
+            Reviews from Nirvana Clients
           </h2>
           <div className="mt-3 flex items-center justify-center gap-2">
             <div className="flex text-amber-500">
@@ -22,7 +22,7 @@ export default function ReviewsSection() {
               ))}
             </div>
             <span className="text-xs sm:text-sm font-semibold text-noir-900">
-              {BUSINESS_INFO.rating} Rating · Google & Yelp Reviews
+              Client reviews from Google & Yelp
             </span>
           </div>
         </div>
@@ -58,10 +58,6 @@ export default function ReviewsSection() {
                   <h4 className="font-serif text-sm font-bold text-noir-950">
                     {review.author}
                   </h4>
-                  <p className="text-[11px] text-noir-500 flex items-center gap-1">
-                    <CheckCircle className="w-3 h-3 text-sage-600 inline" />
-                    <span>Verified Review</span>
-                  </p>
                 </div>
                 <span className="text-[11px] font-medium text-noir-400">
                   {review.published}

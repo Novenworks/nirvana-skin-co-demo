@@ -47,7 +47,7 @@ export default function ProviderStory() {
             </p>
             
             <h2 className="font-serif text-3xl sm:text-4xl text-noir-950 font-normal tracking-tight mb-4">
-              "Skincare is a personal journey, not a standardized checklist."
+              "We believe that every complexion deserves expert care and attention."
             </h2>
 
             <p className="text-sm sm:text-base text-noir-700 leading-relaxed mb-4">
@@ -55,7 +55,7 @@ export default function ProviderStory() {
             </p>
 
             <p className="text-xs sm:text-sm text-noir-600 leading-relaxed mb-6">
-              Having guided hundreds of clients through challenging skin concerns—including stubborn breakouts, sun damage, dryness, texture changes, and sensitive skin barriers—Stephanie’s mission is to make professional skincare accessible, easy to understand, and deeply relaxing. You will never feel judged for past skincare habits or sold unnecessary products.
+              Whether you are working on breakouts, sun damage, dryness, texture changes, or a sensitive skin barrier, the goal is to make professional skincare accessible, easy to understand, and deeply relaxing. You will never feel judged for past skincare habits or sold unnecessary products.
             </p>
 
             {/* Core Values */}

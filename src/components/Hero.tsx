@@ -19,11 +19,6 @@ export default function Hero() {
             <div className="inline-flex items-center gap-2 self-start px-3 py-1.5 rounded-full bg-sand-200/70 border border-sand-300 text-noir-800 text-xs font-medium mb-4">
               <span className="flex h-2 w-2 rounded-full bg-sage-500 animate-pulse" />
               <span>Rancho Cucamonga's Private Skincare Studio</span>
-              <span className="text-sand-400">•</span>
-              <span className="flex items-center gap-1 font-semibold text-noir-950">
-                <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
-                4.9 Rating
-              </span>
             </div>
 
             {/* Approved Hero Headline */}
@@ -82,7 +77,7 @@ export default function Hero() {
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border border-sand-200 bg-sand-200">
                 <Image
                   src="/images/facial-treatment-1.png"
-                  alt="Nirvana Skin Co. customized facial treatment in Rancho Cucamonga"
+                  alt="Preparing a treatment bed in the Nirvana Skin Co. studio in Rancho Cucamonga"
                   fill
                   className="object-cover"
                   priority
@@ -115,10 +110,10 @@ export default function Hero() {
                   ))}
                 </div>
                 <p className="text-xs text-noir-700 italic leading-snug">
-                  "My skin is glowing and I feel so confident bare-faced!"
+                  "My skin is glowing and now I feel a bit more confident in a bare face!"
                 </p>
                 <p className="text-[10px] font-semibold text-noir-900 mt-1">
-                  — Desi A. · Verified Client
+                  — Desi A. · Google review
                 </p>
               </div>
 
