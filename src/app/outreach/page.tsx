@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ExternalLink, CheckCircle, AlertTriangle, Send, Phone, MessageSquare, Copy, Shield, Sparkles } from 'lucide-react';
-import { BUSINESS_INFO, REVIEWS, SERVICES } from '@/lib/data';
+import { BUSINESS_INFO, SERVICES } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'Outreach & Strategy Dossier | Nirvana Skin Co.',
@@ -34,8 +34,7 @@ const HOOKS = [
   "The studio is in Suite 280 at 10737 Laurel St, Rancho Cucamonga: a specific, genuinely local detail.",
   "Corrective skin work is the least glamorous and most repeat-driven part of esthetics; choosing to build around it says something.",
   "She uses Comb Works for booking, services and hours. Worth acknowledging that the concept leaves it alone and links to it.",
-  "Her reviews describe multi-visit journeys rather than one-off facials, which matches how she talks about the work.",
-];
+  ];
 
 const GUARDRAILS = [
   "Do NOT mock the previous site or blame anyone for it. Describe what is there; never say who built it.",
@@ -59,28 +58,25 @@ const SUBJECT_LINES = [
 
 const COLD_EMAIL = `Hi Stephanie,
 
-I came across Nirvana Skin Co and ended up spending some time on the site and your Comb Works menu.
-
-There was already a lot there worth working with: the Nirvana Glow facials, the Perfect Derma Peel, microneedling, and the membership. So I built a version of the site instead of sending a list of suggestions. It lets someone start from what their skin is dealing with (breakouts, dryness, texture or upkeep) and lands them on the right first appointment, with every booking button still going to your Comb Works page.
+On nirvanaskinco.com the FAQ page still shows a template's sample question ("Can i use the code if i don't know to code?"), and a first-time visitor has to work out on their own which facial to start with. I built a concept site that starts people from what their skin is dealing with (breakouts, dryness, texture or upkeep) and lands them on a first appointment, with every booking button still going to your Comb Works page:
 
 ${DEMO_URL}
 
-Also, a small heads-up: the FAQ page on nirvanaskinco.com still shows some of the theme's sample text, in case that is useful.
+If you like it, I can do the full job: copy, build, mobile polish, connecting your existing Comb Works booking, technical setup and launch. I handle the work. You review and approve.
 
-If you like the direction, I can show you what I changed and why.
+Want me to send over the full breakdown of what you get and what it costs?
 
-Vincent
-Novenworks`;
+Vincent / Novenworks`;
 
 const FOLLOW_UP_ONE = `Hi Stephanie,
 
-Just bumping this once in case it got buried. I put together a Nirvana Skin Co site concept that starts people from their skin concern and sends them straight to your Comb Works booking, and wanted to make sure you saw it.
+Just bumping this once in case it got buried. The Nirvana Skin Co concept starts people from their skin concern and sends them to your existing Comb Works booking.
 
 ${DEMO_URL}
 
-No pressure either way.
+Want me to send over the full breakdown of what you get and what it costs?
 
-Vincent`;
+Vincent / Novenworks`;
 
 const FOLLOW_UP_TWO = `Hi Stephanie,
 
@@ -88,7 +84,9 @@ Last note from me on this. I will leave the Nirvana Skin Co concept up in case y
 
 ${DEMO_URL}
 
-Vincent`;
+If it is useful, I can send over the full breakdown of what you get and what it costs.
+
+Vincent / Novenworks`;
 
 const PHONE_OPENING = `"Hi Stephanie, this is Vince with Novenworks. I was on your site and noticed the FAQ still has some template placeholder text in it, worth a quick look. That got me curious, and I ended up building a website concept for the studio. I sent it over by email and just wanted to make sure it reached you."`;
 
@@ -106,7 +104,7 @@ const NEEDS_VERIFICATION = [
   "Contact: aestheticsbynirvana@gmail.com is the Email link on Stephanie Cevallos's own Linktree (linked from @nirvanaskinco). It is not published on nirvanaskinco.com, which sits behind a bot check. Treat it as a first-party social-profile address.",
   "Confirm the concept URL resolves and shows the current version before sending.",
   "Re-check that the FAQ placeholder text is still live \u2014 it is the lead observation and a two-minute fix on her end.",
-  "Ratings and review counts are not shown on the concept and must not be cited. The reviews quoted on the concept are attributed to Google but could not be matched to a live listing during QA; confirm them or remove them before a handoff.",
+  "Ratings and review counts are not shown on the concept and must not be cited. The named reviews that were on the concept could not be matched to a live Google/Yelp listing and were removed (2026-10-06); the concept now only links to the Google and Yelp listings.",
   "The \u201c5+ years\u201d of medical aesthetic experience is reproduced as published and has not been independently confirmed.",
   "Confirm Comb Works is still her booking system before referencing it.",
 ];

@@ -185,7 +185,7 @@ export default function Footer() {
         {/* Bottom Bar & Disclaimers */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] text-sand-500">
           <p>
-            © {new Date().getFullYear()} Nirvana Skin Co. All rights reserved. Rancho Cucamonga, CA.
+            Concept website by Novenworks, not the official Nirvana Skin Co. site. Rancho Cucamonga, CA.
           </p>
           <div className="flex items-center gap-4 text-sand-500">
             <span>By Appointment Only</span>
