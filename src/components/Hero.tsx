@@ -102,21 +102,6 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating review trust card */}
-              <div className="hidden sm:block absolute -top-4 -left-6 p-3.5 rounded-2xl bg-white/95 backdrop-blur-md border border-sand-200 shadow-xl max-w-[210px]">
-                <div className="flex items-center gap-1 text-amber-500 mb-1">
-                  {"★★★★★".split("").map((s, i) => (
-                    <span key={i} className="text-xs">★</span>
-                  ))}
-                </div>
-                <p className="text-xs text-noir-700 italic leading-snug">
-                  "My skin is glowing and now I feel a bit more confident in a bare face!"
-                </p>
-                <p className="text-[10px] font-semibold text-noir-900 mt-1">
-                  — Desi A. · Google review
-                </p>
-              </div>
-
             </div>
           </div>
 

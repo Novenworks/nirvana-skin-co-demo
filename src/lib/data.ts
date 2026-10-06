@@ -241,57 +241,8 @@ export const CONCERN_PATHWAYS = [
   }
 ];
 
-export const REVIEWS: ReviewItem[] = [
-  {
-    author: "Desi Aguayo",
-    published: "Google Review",
-    rating: 5,
-    text: "I had such an amazing experience with Stephanie. It’s been years since I’ve had a facial, and this was such a treat! Not only was Stephanie the kindest person ever, but the service she provided was amazing! My face feels so much lighter and breathable. My skin is glowing and now I feel a bit more confident in a bare face! Thank you Stephanie, I will be coming back soon!",
-    treatmentMentioned: "Custom Facial"
-  },
-  {
-    author: "Amanda Palma",
-    published: "Google Review",
-    rating: 5,
-    text: "Stephanie is so sweet! She makes you feel comfortable and explains everything. She does a quick consultation to ask about your concerns and skin care routine and gives advice and recommendations. Her office is so cute and cozy! Will be returning for more treatments. I received a facial and teeth whitening and my teeth and skin look great!",
-    treatmentMentioned: "Facial & Teeth Whitening"
-  },
-  {
-    author: "Barbie Mercado",
-    published: "Google Review",
-    rating: 5,
-    text: "Stephanie is the best! She is flexible to help me schedule, even last minute which is so helpful for a mom of 2 littles like me. I’ve now had a facial, teeth whitening and microneedling with Stephanie and plan on doing more. Stephanie makes you feel like an instant friend making it easy to relax and enjoy services.",
-    treatmentMentioned: "Microneedling & Facial"
-  },
-  {
-    author: "Tara Stone",
-    published: "Google Review",
-    rating: 5,
-    text: "Went to Nirvana Skin Co over the weekend for a facial and Stephanie is amazing! She didn't make me feel bad at all for not taking care of my skin and not having a facial for years. Instead she got me on a plan for my skin that was feasible for me. She is very knowledgeable and able to answer any skincare questions.",
-    treatmentMentioned: "Consultation & Facial"
-  },
-  {
-    author: "Elizabeth Hagman",
-    published: "Google Review",
-    rating: 5,
-    text: "I had such a wonderful experience! Both procedures were individualized and attentive. Everything down to the smallest detail such as the products used to even the music played was customized to my preference. My teeth came out much lighter and my skin came out hydrated and pore free. After the procedures I was given free samples and an at-home care kit.",
-    treatmentMentioned: "Personal Facial & Teeth Whitening"
-  },
-  {
-    author: "Samantha Eickhoff",
-    published: "Google Review",
-    rating: 5,
-    text: "Do yourself a favor & book your appointment with Stephanie! I’m 5 days post my first facial and my skin is GLOWING! She is so knowledgeable & just made you feel at ease which automatically built the trust you want with someone who is dealing with the skin on your face!",
-    treatmentMentioned: "Nirvana Glow Facial"
-  },
-  {
-    author: "Janella Mendez",
-    published: "Google Review",
-    rating: 5,
-    text: "Stephanie is truly the most amazing esthetician I have ever gone to. She has a smooth touch and is so gentle with your skin. She gave me amazing tips on how to continue to have the best skin I can have. She truly cares about her craft and puts her clients first.",
-    treatmentMentioned: "Custom Skin Therapy"
-  }
-];
+// Named client reviews were removed: they could not be matched to a live Google/Yelp listing (2026-10-06).
+export const REVIEWS: ReviewItem[] = [];
 
 export const FAQS: FaqItem[] = [
   {

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { BUSINESS_INFO } from "@/lib/data";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   metadataBase: new URL("https://nirvanaskinco.com"),
   title: "Nirvana Skin Co. | Facials & Advanced Skincare in Rancho Cucamonga, CA",
   description:
